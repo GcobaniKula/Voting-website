@@ -1,0 +1,361 @@
+body{
+    background:linear-gradient(to bottom,darkgreen,black, darkgreen);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+/*This is the heading styling*/
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    background:linear-gradient(white,blue);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
+}
+
+/* The styling of the x in the heading*/
+.x{
+    font-family:cursive;
+}
+
+
+/* this si the styling of the button and list*/
+.Menu{
+    position: absolute;
+    top: 50PX;
+    right: 10PX;
+}
+
+
+/* This is the styling of the button as a decendent of Menu*/
+.Menu button{
+    background-color:wheat;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 10PX;   
+}
+
+
+/* this is the styling of the list*/
+li{
+list-style: none;
+    }
+    
+    
+    
+    
+/* this is the styling of the links as a decendent of the menu*/
+.Menu a{
+    color: azure;
+    text-decoration:none;  
+    display: block;  
+}
+/*This is the stylinmg of the icon in the index*/
+.Menu .material-icons{
+    position:absolute;
+    top: 10px;
+    left: 8px;
+}
+
+
+/* This is the styling of the whole menu bar with the button and the links*/ 
+.Menu .content{
+    border: solid black;
+    box-shadow: white  0px 0px 5px;
+    background-color:gray;
+    display: none;
+    padding-left: 10%;
+    border-radius: 10px;
+   
+
+}
+
+
+/*This is the styling of hovering over the Menu botton*/
+.Menu:hover .content{
+    display:block;
+}
+
+
+/* This is the styling of hovering over the links*/
+a:hover{
+    background-color:black;
+
+}
+
+.fig{
+    position: relative;
+    left: 500px;
+    
+
+}
+.fig img{
+    width: 350px;
+    height: 250px;
+}
+
+.fig .caption{
+    font-size: 30px;
+    font-style: italic;
+    color: silver;
+}
+
+.footerbox{
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    color: darkgreen;
+    height: 150px;
+
+}
+.footerbox p{
+    text-align: center;
+    font-size: xx-large;
+    box-shadow:0px 0px 60px #666;
+    
+}
+
+
+#gk{
+    position: absolute;
+    left: 1070px;
+    bottom: 14px;
+    
+}
+#gk img{
+    border-radius: 50px;
+}
+
+
+
+
+
+                /*This is the styling of the about page*/
+                
+ /* this is the styling of the about head*/               
+.abouthead{
+    text-align: center;
+    background:linear-gradient(white,blue);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: xx-large;
+   text-shadow: white 010px 0 50px;
+}         
+
+.aboutpara{
+    position: absolute;
+    left: 450px;
+    color: white;
+    font-size: larger; 
+    box-shadow:0px 0px 20px #ccc;
+}
+
+.footerbox-2{
+    position: relative;
+    bottom: -500px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    color: darkgreen;
+    height: 150px;
+    width: 100%;
+    
+    
+}
+
+
+.footerbox-3{
+    position: relative;
+    bottom: -500px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    color: darkgreen;
+    height: 150px;
+    width: 100%;
+}
+
+.footerbox-4{
+    position: relative;
+    bottom: -500px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    color: darkgreen;
+    height: 150px;
+    width: 100%;
+}
+
+.footerbox-5{
+    position: relative;
+    bottom: -500px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    color: darkgreen;
+    height: 150px;
+    width: 100%;
+    
+}
+
+
+
+
+/*This is the stylig of the contact us page*/
+
+.conhead{
+text-align: center;
+background:linear-gradient(white,blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: xx-large;
+text-shadow: white 010px 0 50px;
+
+}
+
+
+
+.aboutpara {
+    color: white;
+    font-size: larger;
+    border: 2px solid; /* Border properties */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin around the box */
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    right: 390px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #333; /* Setting a dark background for contrast */
+    padding: 20px; /* Adding some padding for readability */
+}
+a {
+    color: red; /* Default link color */
+    text-decoration: none; /* Removing underline */
+    font-weight: bold; /* Bold text */
+}
+a:hover {
+    color: yellow; /* Yellow color on hover */
+}
+section, figure, h2, p, img, figcaption {
+    margin-bottom: 20px; /* Adding space between elements */
+}
+.hispara {
+    background-color: #666; /* Light gray background for the first section */
+    padding: 10px;
+    
+    
+}
+.figxx {
+    border: 1px solid #ccc; /* Adding a border around the figure */
+    padding: 10px;
+}
+.figcap {
+    text-align: center; /* Centering the caption */
+}
+.anchistory {
+    background-color: #666; /* Light gray background for the second section */
+    padding: 10px;
+}
+.anchistory h2 {
+    color: yellow; /* Yellow color for the section heading */
+    font-weight: bold; /* Bold text */
+}
+
+.table{
+    position: relative;
+    left: 450px;
+}
+
+/* Container for the form */
+.form-container {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 70PX wheat; /* Optional: Add shadow for a raised effect */
+}
+
+/* Style for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style for labels */
+label {
+    display: inline-block;
+    width: 150px; /* Fixed width for labels */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for text inputs and textareas */
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: calc(100% - 160px); /* Adjust width to leave space for label */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    left: 250PX;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.material-icons{
+    background:linear-gradient(white,blue);
+    color:red;  
+    
+}
+
+.s2 .px{
+    color: white;
+    font-size:x-large;
+}
+
+.s2{
+    background:black;
+    box-shadow:0px 0px 150px white;
+    width: 490px;
+   position: absolute;
+   left: 35%;
+   right: 65%;
+   height: 300px;
+   padding: 60px;
+   
+
+}
+
+
+

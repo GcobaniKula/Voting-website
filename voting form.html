@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="headform">
+    <h1>
+        <picture><img src="pictures/IEC.jpg" width="100" height="80"></picture>
+        <span class="votinghead">Voting Form</span>
+    </h1>
+</header>
+
+<section>
+    <div class="madz">
+        <a href="https://www.youtube.com/watch?v=bUYfNAfA2Ks"><img src="pictures/Mandela.png" width="300" height="300"></a><br>
+        <p><b>This link takes you to the video of Tata Madiba's first election.</b></p>
+    </div>
+</section>
+
+<div class="form-container">
+    <form action="/data" method="post" id="FORM">
+        <div class="form-group">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required placeholder="John">
+        </div>
+
+        <div class="form-group">
+            <label for="Surname">Last Name:</label>
+            <input type="text" id="Surname" name="Surname" required placeholder="Samsons">
+        </div>
+
+        <div class="form-group">
+            <label for="id">Identification number:</label>
+            <input type="tel" id="id" name="id" required pattern="[0-9]{13}" placeholder="Enter ID #" maxlength="13" minlength="13">
+        </div>
+
+        <div class="form-group">
+            <label for="sex">Sex:</label>
+            <input type="radio" id="Male" value="Male" name="sex">
+            <label for="Male">Male</label>
+
+            <input type="radio" id="Female" value="Female" name="sex">
+            <label for="Female">Female</label>
+        </div>
+
+        <div class="form-group">
+            <label for="province">Province:</label>
+            <select id="province" name="province">
+                <option>Select</option>
+                <option>Westen Cape</option>
+                <option>Eastern Cape</option>
+                <option>Northern Cape</option>
+                <option>North West</option>
+                <option>Free State</option>
+                <option>Gauteng</option>
+                <option>Mpumalanga</option>
+                <option>Kwa-Zulu Natal</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="Cape Town">
+        </div>
+
+        <div class="form-group">
+            <label for="postal">Postal Code:</label>
+            <input type="tel" id="postal" name="postal" maxlength="4" minlength="4">
+        </div>
+
+        <div class="form-group">
+            <label for="address">Physical Address:</label>
+            <textarea id="address" rows="6" cols="65"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="national">National:</label>
+            <select id="national" name="national">
+                <option>SELECT</option>
+                <option>Eff</option>
+                <option>Da</option>
+                <option>UDM</option>
+                <option>IFP</option>
+                <option>ANC</option>
+                <option>MK</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="locally">Local:</label>
+            <select id="locally" name="locally">
+                <option>SELECT</option>
+                <option>Eff</option>
+                <option>Da</option>
+                <option>UDM</option>
+                <option>IFP</option>
+                <option>ANC</option>
+                <option>MK</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </form>
+</div>
+
+<section>
+    <h2>Personal Details</h2>
+    
+</section>
+
+
+
+<div class="statement">
+    <p><h2><b>Voting means you are exercising your right in chosing which party you think or feel should be the leader of the whole South Africa.
+        This right gives you the responsibility to make a choise that will affect the whole nation and how South Africa is gorvened.
+    </b> </h2></p><br>
+    </div>
+    <div class="table"><table border>
+       <tr>
+        <td>Party Flag</td>
+        <td>Party Name</td>
+        <td>Party Leader</td>
+</tr>
+<tr><td><img src="pictures/download.png" alt="anc flag" width="200" height="200"></td>
+    <td><p>ANC</p></td>
+    <td><img src="pictures/ANC leader.jpg" alt="Cyril_Ramaphosa" width="200" height="200"></td></tr>
+    <tr><td><img src="pictures/EFF.png" alt="eff flag" width="200" height="200"></td>
+        <td><p>EFF</p></td>
+        <td><img src="pictures/EFF leader.jpg" alt="MALEMA" width="200" height="200"></td>
+    </tr>
+    <tr><td><img src="pictures/DA.jpg" alt="DA FLAG"width="200" height="200" ></td>
+        <td><p>DA</p></td>
+        <td><img src="pictures/DA leader.jpg" alt="Da leader" width="200" height="200"></td>
+    </tr>
+    <tr><td><img src="pictures/IFP.png" alt="IFP FLAG" width="200" height="200"></td>
+        <td><p>IFP</p></td>
+        <td><img src="pictures/IFP leader.jpg" alt="ifp leader"width="200" height="200" ></td>
+    </tr>
+    <tr><td><img src="pictures/UDM.png" alt="UDM flag" width="200" height="200"></td>
+        <td><p>UDM</p></td>
+        <td><img src="pictures/UDM.png" alt="UDM LEADER"width="200" height="200"></td>
+    </tr>
+    <tr><td><img src="pictures/ACDP.png" alt="Acdp flag" width="200" height="200"></td>
+        <td><p>ACDP</p></td>
+        <td><img src="pictures/ACDP.png" alt="ACDP leader" width="200" height="200"></td>
+    </tr>
+
+    <tr><td><img src="pictures/MK.png" alt="Acdp flag" width="200" height="200"></td>
+        <td><p>MK</p></td>
+        <td><img src="pictures/MK leader.png" alt="ACDP leader" width="200" height="200"></td>
+    </tr>
+
+       
+    </table></div>
+
+
+
+
+<footer align="center"><div class="footerbox-2"><nav role="navigation"><a href="index.html">
+    <img src="pictures/logo.png" alt="logo" width="90" height="70"></a></nav>
+<p>Copyrights (2024) authored by <b>Gcobani Kula</b></p></div></footer>
+
+
+
+<script>
+    document.getElementById('FORM').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        
+        // Validate inputs
+        let name = document.getElementById('name').value.trim();
+        let surname = document.getElementById('Surname').value.trim();
+        let id = document.getElementById('id').value.trim();
+        let sex = document.querySelector('input[name="sex"]:checked');
+        let province = document.getElementById('province').value;
+        let city = document.getElementById('city').value.trim();
+        let postal = document.getElementById('postal').value.trim();
+        let address = document.getElementById('address').value.trim();
+        let national = document.getElementById('national').value;
+        let locally = document.getElementById('locally').value;
+        
+        // Validation logic
+        if (name === '' || surname === '' || id === '' || !sex || province === 'Select' || city === '' || postal === '' || address === '' || national === 'SELECT' || locally === 'SELECT') {
+            alert('Please fill in all fields.');
+            return;
+        }
+
+        if (!id.match(/^\d{13}$/)) {
+            alert('ID should be a 13-digit number.');
+            return;
+        }
+
+        if (!postal.match(/^\d{4}$/)) {
+            alert('Postal code should be a 4-digit number.');
+            return;
+        }
+
+        // If all validations pass, submit the form
+        this.submit();
+    });
+
+    
+</script>
+
+</body>
+</html>
